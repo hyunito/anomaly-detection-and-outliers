@@ -1,6 +1,6 @@
 # Anomaly Detection & Outlier Analysis: Bangkok Airbnb Market
 
-This repository focuses on identifying and analyzing statistical anomalies within the **Bangkok Airbnb** dataset (17,432 listings). The goal is to ensure data integrity and detect "noise", such as price typos or suspicious listing behaviors before the data is used for further business reporting.
+This repository focuses on identifying and analyzing statistical anomalies within the **Bangkok Airbnb** dataset (17,432 listings) using different anomaly detection & outlier tools. The goal is to ensure data integrity and detect "noise", such as price typos or suspicious listing behaviors before the data is used for further business reporting.
 
 ---
 

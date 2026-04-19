@@ -25,9 +25,9 @@ Focuses on identifying outliers in a single column (e.g., `price`).
 
 | Method | Description | Formula / Threshold |
 | :--- | :--- | :--- |
-| **Z-Score** | Measures how many standard deviations a point is from the average. | $$z = \frac{x - \mu}{\sigma}$$ |
+| **Z-Score** | Measures how many standard deviations a point is from the average. | $z = \frac{x - \mu}{\sigma}$ |
 | **IQR** | Uses the middle 50% of data to set "fences" or boundaries. | $$Q_{3} + (1.5 \times IQR)$$ |
-| **MAD** | A version of the Z-score that uses the median to avoid being influenced by extreme errors. | $$\text{median}(|x_{i} - \tilde{x}|)$$ |
+| **MAD** | A version of the Z-score that uses the median to avoid being influenced by extreme errors. | $\text{median}(\mid x_{i} - \tilde{x} \mid)$ |
 
 **Visual Tools:** Histograms and Box Plots.
 

@@ -32,17 +32,7 @@ Focuses on identifying outliers in a single column (e.g., `price`).
 
 ---
 
-### 2. Bivariate Analysis (Two Variables)
-Examines the relationship between two columns to find "broken rules" (e.g., a price that doesn't make sense for a specific location).
-
-* **Scatterplots:** Used to visually see dots that fall far from the main group.
-* **Correlation Coefficient:** A number between -1 and 1 that describes how two variables move together.
-* **Residual Analysis:** Calculates the "leftover" error between the actual price and what a mathematical model predicted the price should be.
-    * **Residual Formula:** $$\text{Actual} - \text{Predicted}$$
-
----
-
-### 3. Multivariate Analysis (Multiple Variables)
+### 2. Multivariate Analysis (Multiple Variables)
 Detects complex anomalies by looking at patterns across many columns at once (Price, Reviews, Availability, etc.).
 
 * **Isolation Forest:** An algorithm that "isolates" points. Outliers are "lonely" and different, so they are separated much faster than normal points.
@@ -63,7 +53,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn pyod
 Clone the repository:
 
 ```bash
-git clone [https://github.com/hyunito/anomaly-detection-and-outliers.git](https://github.com/hyunito/anomaly-detection-and-outliers.git)
+git clone https://github.com/hyunito/anomaly-detection-and-outliers.git
 ```
 Ensure listings_bangkok.csv is in the root directory.
 
